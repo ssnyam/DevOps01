@@ -1,5 +1,9 @@
 #!/bin/bash
-#The script is used to gather disk space and volumes. Sik Nyam 4/2020
+#The script is used to gather information. Sik Nyam 4/2020
+#
+#A one-liner will be as follow.
+#df -h;/bin/cat /proc/cpuinfo;free;ip add | grep ether
+#
 #
 echo "Disk Space and Volume"    >/home/patrick/DevOps01/devops01a.out
 /bin/df -h                      >> /home/patrick/DevOps01/devops01a.out
