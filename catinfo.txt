@@ -6,3 +6,4 @@ cats can eat
 yet more cat info
 Yet another line of cats!
 This is added in the master branch
+added to clone's file
