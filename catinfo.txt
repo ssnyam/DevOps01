@@ -4,6 +4,9 @@ cats can run
 cats can hide
 cats can eat
 yet more cat info
+Yet another line 
 Yet another line of cats!
 This is added in the master branch
 add clone 1st
+added to clone's file
+added 1st
