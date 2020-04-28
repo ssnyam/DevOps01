@@ -5,3 +5,7 @@ cats can hide
 cats can eat
 yet more cat info
 Yet another line of cats!
+<<<<<<< HEAD
+=======
+This is added in the master branch
+>>>>>>> origin
