@@ -1,23 +1,29 @@
 #!/bin/bash
 #The script is used to display info. Sik Nyam 4/2020
 #
+#
+clear
 case $1 in
                                                                                                  
 -volume)
 	echo "=====Volumes and file system====="
 	/bin/df -h
+	echo " "
   ;;
 -cpu)
 	echo "=====CPU detail====="
 	/bin/cat /proc/cpuinfo
+	echo " "
   ;;
 -ram)
   echo "=====Memory utilization====="
 	/usr/bin/free -m
+	echo " "
   ;;
 -network)
   echo "=====Network and MAC Info====="
 	/sbin/ip add | grep ether
+	echo " "
   ;;
 -all)
 	echo "=====Volumes and file system====="
@@ -34,7 +40,7 @@ case $1 in
 	echo " "
 ;;
 *)
-  echo "Usage: $0 ARG (Choices: -volumes, -cpu, -ram, -network, -all):"
+  echo "Usage: $0 ARG (Choices: "-volumes", "-cpu", "-ram", "-network", "-all"):"
   ;;
 esac
 #
